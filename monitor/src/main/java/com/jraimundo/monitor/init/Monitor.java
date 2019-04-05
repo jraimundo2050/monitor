@@ -9,13 +9,10 @@ public class Monitor {
 
 	public static void main(String[] args) {
 		JFrame nenuPullDown = new MenuPullDown();
-		nenuPullDown.setTitle("Monitor");
-		
+		nenuPullDown.setTitle("Monitor");		
 		nenuPullDown.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		
 		nenuPullDown.setVisible(true);
-
-
 	}
 	
 }
